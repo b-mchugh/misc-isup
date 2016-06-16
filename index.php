@@ -7,9 +7,11 @@
  <?php echo '<p>IsUp</p>'; ?>
  <?php echo 'Hostname: '; ?>
  <?php echo gethostname(); ?>
- <?php echo '<br>IP: '; ?>
+ <?php echo '<p></p>'; ?>
+ <?php echo 'IP: '; ?>
  <?php echo gethostbyname(gethostname()); ?>
- <?php echo '<br>date'; ?>
+ <?php echo '<p></p>'; ?>
+ <?php echo 'Date: '; ?>
  <?php echo date(DATE_RFC2822); ?>
  </body>
 </html>
