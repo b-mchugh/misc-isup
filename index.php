@@ -7,6 +7,6 @@
  <?php echo 'Hostname: '; ?>
  <?php echo gethostname(); ?>
  <?php echo '<p>date</p>'; ?>
- <?php echo getdate(); ?>
+ <?php echo echo date(DATE_RFC2822); ?>
  </body>
 </html>
