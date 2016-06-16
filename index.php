@@ -9,7 +9,7 @@
  <?php echo gethostname(); ?>
  <?php echo '<br>IP: '; ?>
  <?php echo gethostbyname(gethostname()); ?>
- <?php echo '<p>date</p>'; ?>
+ <?php echo '<br>date'; ?>
  <?php echo date(DATE_RFC2822); ?>
  </body>
 </html>
