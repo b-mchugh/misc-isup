@@ -4,6 +4,6 @@
  </head>
  <body>
  <?php echo '<p>IsUp</p>'; ?>
- <?php echo gethostname(); ?>
+ <?php echo 'Hostname: ' gethostname(); ?>
  </body>
 </html>
